@@ -1,7 +1,7 @@
 ---
-title: ✍️ Second Brain
-date: 2022-09-24
-toc: false
+title: ✍️ 第二大脑
+date: 2023-08-01
+toc: true
 
 image:
   filename: covers/nasa-Q1p7bh3SHj8-unsplash.jpg
