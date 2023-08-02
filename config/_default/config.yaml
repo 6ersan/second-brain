@@ -22,7 +22,7 @@ cascade:
 ## LANGUAGE
 ############################
 
-languageCode: zh
+languageCode: zh-Hans
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
