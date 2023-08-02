@@ -7,6 +7,9 @@ weight: 2
 ---
 视频链接：[YouTube](https://youtu.be/_ckfHYuAjRA) [Bilibili](https://www.bilibili.com/video/BV1w64y1i71f/?share_source=copy_web&vd_source=c03d7cc5fdf8b11a02fed28dafbf15b3)
 
+{{< youtube _ckfHYuAjRA >}}
+
+
 
 **发展方程**是指关于时间变量$t$的ODE(s)或PDE(s)，一些简单例子:
 
