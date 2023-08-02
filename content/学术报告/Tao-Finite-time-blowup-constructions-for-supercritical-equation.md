@@ -33,8 +33,8 @@ $$
 
 关于解发展方程的一个自然的问题是**初值问题**，即当给定$t = 0$的初始数据时，构造与这一初值对应的之后时间的解.
 
-* 对于ODE $\partial_t u = F(u)$，指定初始位置$u(0) = u_0 \in \mathbb{R}^m$.
-* 对于NLW$- \partial_{tt} u + \Delta u = F(u)$，指定初始位置 $u(0) = u_0:\mathbb{R}^d \rightarrow \mathbb{R}^d$以及初始速度 $\partial_t u(0) = u_1: \mathbb{R}^d \rightarrow \mathbb{R}^m.$
-* 对于NLS $i \partial_t u + \Delta u = F(u)$，指定初始位置$u(0) = u_0: \mathbb{R}^d \rightarrow \mathbb{C}^m$.
+* 对于ODE（ $\partial_t u = F(u)$），指定初始位置$u(0) = u_0 \in \mathbb{R}^m$.
+* 对于NLW（$- \partial_{tt} u + \Delta u = F(u)$），指定初始位置 $u(0) = u_0:\mathbb{R}^d \rightarrow \mathbb{R}^d$以及初始速度 $\partial_t u(0) = u_1: \mathbb{R}^d \rightarrow \mathbb{R}^m.$
+* 对于NLS （ $i \partial_t u + \Delta u = F(u)$），指定初始位置$u(0) = u_0: \mathbb{R}^d \rightarrow \mathbb{C}^m$.
 
 
