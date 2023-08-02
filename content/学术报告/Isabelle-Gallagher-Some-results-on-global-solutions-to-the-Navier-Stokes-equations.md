@@ -7,3 +7,14 @@ weight: 1
 ---
 
 视频链接：[YouTube](https://youtu.be/27nyEX8I5dw)
+
+### 介绍
+
+Navier-Stokes方程：
+
+$$
+\left\{\begin{aligned}
+\partial_t u + u \cdot \nabla u - \Delta u & = - \nabla p, \quad \text{in}\; \mathbb{R}^3\\
+\text{div} \  u &= 0
+\end{aligned}\right.
+$$
