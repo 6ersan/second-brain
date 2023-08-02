@@ -5,7 +5,7 @@ date: '2023-08-01T00:00:00+01:00'
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
-视频链接：{{< cta cta_text="YouTube" cta_link="https://youtu.be/_ckfHYuAjRA" >}} {{< cta cta_text="Bilibili" cta_link="https://www.bilibili.com/video/BV1w64y1i71f/?share_source=copy_web&vd_source=c03d7cc5fdf8b11a02fed28dafbf15b3" >}} 
+视频链接：[YouTube](https://youtu.be/_ckfHYuAjRA) [Bilibili](https://www.bilibili.com/video/BV1w64y1i71f/?share_source=copy_web&vd_source=c03d7cc5fdf8b11a02fed28dafbf15b3)
 
 
 **发展方程**是指关于时间变量$t$的ODE(s)或PDE(s)，一些简单例子:
