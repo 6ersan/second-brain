@@ -5,6 +5,7 @@ linktitle: 学术报告
 summary: 一些学术报告的笔记.
 weight: 10
 icon: huiyi
+icon_pack: custom
 
 # Page metadata.
 date: '2018-09-09T00:00:00Z'
