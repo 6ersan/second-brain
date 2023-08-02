@@ -12,10 +12,10 @@ image:
 
 ```markmap {height="200px"}
 - 第二大脑
-  - 微分方程
-    - 一阶ODE
-    - 不可压Navier-Stokes方程
-    - 可压Navier-Stokes方程
+  - 一阶ODE
+  - 不可压Navier-Stokes方程
+    - 适定性问题
+  - 可压Navier-Stokes方程
   - 泛函分析
   - 调和分析
     - Littlewood Paley理论
