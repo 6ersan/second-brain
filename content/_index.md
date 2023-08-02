@@ -1,5 +1,5 @@
 ---
-title: ✍️ 第二大脑
+title: ✍️ Second Brain
 date: 2023-08-01
 toc: false
 
@@ -8,10 +8,10 @@ image:
   caption: NASA
 ---
 
-欢迎来到我的第二大脑🧠！
+欢迎来到我的Second Brain🧠！
 
 ```markmap {height="200px"}
-- 第二大脑
+- Second Brain
   - 一阶ODE
   - 不可压Navier-Stokes方程
     - 适定性问题
