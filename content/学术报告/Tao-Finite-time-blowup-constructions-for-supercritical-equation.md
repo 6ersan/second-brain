@@ -1,13 +1,11 @@
 ---
-title: 陶哲轩-关于超临界方程的有限时间blowup的构造
-linktitle: 陶哲轩-关于超临界方程的有限时间blowup的构造
+title: 陶哲轩 - 关于超临界方程的有限时间blowup的构造
+linktitle: 陶哲轩 - 关于超临界方程的有限时间blowup的构造
 date: '2023-08-01T00:00:00+01:00'
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
 视频链接：[YouTube](https://youtu.be/_ckfHYuAjRA) [Bilibili](https://www.bilibili.com/video/BV1w64y1i71f/?share_source=copy_web&vd_source=c03d7cc5fdf8b11a02fed28dafbf15b3)
-
-{{< youtube _ckfHYuAjRA >}}
 
 
 
