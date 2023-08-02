@@ -12,9 +12,11 @@ weight: 1
 
 Navier-Stokes方程：
 
-$$
+{{< math >}}$$
 \left\{\begin{aligned}
-\partial_t u + u \cdot \nabla u - \Delta u & = - \nabla p, \quad \text{in}\; \mathbb{R}^3\\
+\partial_t u + u \cdot \nabla u - \Delta u & = - \nabla p \quad \text{in}\; \mathbb{R}^3\\
 \text{div} \  u &= 0
 \end{aligned}\right.
-$$
+$${{< /math >}}
+
+
