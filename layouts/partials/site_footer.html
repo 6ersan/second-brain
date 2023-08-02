@@ -1,0 +1,17 @@
+{{ if .IsTranslated | and site.Params.footer.show_translations }}
+<div class="powered-by d-flex flex-wrap pb-2 justify-content-center">
+  <div class="p-2 font-weight-bold"><i class="fas fa-globe pr-1" aria-hidden="true"></i>{{ i18n "languages" }}:</div>
+  <div class="p-2">{{ index site.Data.i18n.languages .Lang }}</div>
+  {{ range .Translations }}
+    <div class="p-2"><a href="{{ .Permalink }}">{{ index site.Data.i18n.languages .Lang }}</a></div>
+  {{ end }}
+</div>
+{{ end }}
+
+{{/* Display copyright license. */}}
+{{ partial "site_footer_license" . }}
+<p class="powered-by" style="text-align: center; font-size: 70%;" >
+    {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}  {{ end }}
+    
+    </p>
+</footer>
