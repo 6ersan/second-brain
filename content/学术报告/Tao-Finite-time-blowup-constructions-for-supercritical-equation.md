@@ -51,6 +51,15 @@ $$
 
 - 一般来说，给定光滑性足够好的初值，容易建立这些初值问题的局部存在性（唯一性），但是整体存在性往往十分困难.
 
-- 例如，ODE的初值问题$\partial_t u = F(u), \  u(0) = u_0$，其中$u_0 \in \mathbb{R}^m$以及$F : \mathbb{R}^m \rightarrow \mathbb{R}^m$给定，$F$足够光滑，借助Picard存在性以及唯一性定理可保证最大时间$T_\* \in (0, \infty]$的存在性和初值问题的光滑解$u : [0, T_\*)\rightarrow \mathbb{R}^m$的存在唯一性
+- 例如，ODE的初值问题$\partial_t u = F(u), \  u(0) = u_0$，其中$u_0 \in \mathbb{R}^m$以及$F : \mathbb{R}^m \rightarrow \mathbb{R}^m$给定，$F$足够光滑，借助Picard存在性以及唯一性定理可保证最大时间$T_\* \in (0, \infty]$的存在性和初值问题的光滑解$u : [0, T_\*)\rightarrow \mathbb{R}^m$的存在唯一性.
+
+- 进一步可证明，只有两种情况发生：要么$T_\* =  +\infty$，要么$T_\* < \infty$且当$t \rightarrow T_\*$时有$u(t) \rightarrow \infty$
+
+- 对于简单的ODE方程：Ricatti方程 $\partial_t u = u^2, \  u: [0, T_\*) \rightarrow \mathbb{R}$，存在有限时间的blowup，例如显式解$u(t) = \dfrac{1}{1 - t}, \ 0 \le t < 1$.
+
+- 同样对于方程$\partial_t u = u^2$, 当解$u \sim 2^n$，则$\partial_t u \sim 2^n$，所以时间$t$增加$ 2^{-n}$，$u$加倍增加到$2^{n + 1}$，再由级数$\sum^\infty_{n = 1} 2^{-n}$的收敛性可知可能发生有限时间的blowup，参考下图.
+
+{{< figure src="/Tao-Finite-time-blowup-constructions-for-supercritical-equation/1.png" caption="一个blowup的例子" numbered="true" >}}
+
 
 
