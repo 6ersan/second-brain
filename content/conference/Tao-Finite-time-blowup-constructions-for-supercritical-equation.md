@@ -82,6 +82,6 @@ $$
 然而，存在一个光滑解（甚至是Schwartz）在有限时间内blow up
 
 $$
-u(t, x) := \dfrac{e^{-i \frac{3}{8(t - 1)} + \frac{i x^2}{2(t - 1)}}}{(i ( t - 1))^{1/2}}Q\left(\dfrac{x}{t - 1}\right)
+u(t, x) := \dfrac{e^{-i \dfrac{3}{8(t - 1)} + \dfrac{i x^2}{2(t - 1)}}}{(i ( t - 1))^{1/2}}Q\left(\dfrac{x}{t - 1}\right)
 $$
 其中$Q(x): = (3/ 8)^{1/4}cosh^{- 1/ 2} (x)$是基态.
