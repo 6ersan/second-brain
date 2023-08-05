@@ -57,7 +57,7 @@ $$
 
 - 对于简单的ODE方程：Ricatti方程 $\partial_t u = u^2, \  u: [0, T_\*) \rightarrow \mathbb{R}$，存在有限时间的blowup，例如显式解$u(t) = \dfrac{1}{1 - t}, \ 0 \le t < 1$.
 
-- 同样对于方程$\partial_t u = u^2$, 当解$u \sim 2^n$，则$\partial_t u \sim 2^n$，所以时间$t$增加$ 2^{-n}$，$u$加倍增加到$2^{n + 1}$，再由级数$\sum^\infty_{n = 1} 2^{-n}$的收敛性可知可能发生有限时间的blowup，参考图1.
+- 同样对于方程$\partial_t u = u^2$, 当解$u \sim 2^n$，则$\partial_t u \sim 2^{2n}$，所以时间$t$增加$ 2^{-n}$，$u$加倍增加到$2^{n + 1}$，再由级数$\sum^\infty_{n = 1} 2^{-n}$的收敛性可知可能发生有限时间的blowup，参考图1.
 
 {{< figure src="/Tao-Finite-time-blowup-constructions-for-supercritical-equation/1.png" caption="一个blowup的例子" numbered="true" >}}
 
