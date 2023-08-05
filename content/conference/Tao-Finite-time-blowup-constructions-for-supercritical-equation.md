@@ -69,3 +69,19 @@ $$以及$E(t) = E(0), \forall t \in [0, T_\*)$.若$V$是defocusing，即当$u \r
 
 {{< figure src="/Tao-Finite-time-blowup-constructions-for-supercritical-equation/2.png" caption="defocusing与focusing" numbered="true" >}}
 
+不同于ODE，PDE的情况则更加复杂，强制的守恒律也不一定能避免有限时间blowup.
+
+一个显式反例由一维focusing五次NLS给出
+$$
+i\partial_t u + \dfrac{1}{2} \partial_{xx}u = - |u|^4 u.
+$$
+此方程质量守恒
+$$
+M(t) := \int_\mathbb{R} |u(t, x)|^2 dx.
+$$
+然而，存在一个光滑解（甚至是Schwartz）在有限时间内blow up
+
+$$
+u(t, x) := \dfrac{e^{-i \frac{3}{8(t - 1)} + \frac{i x^2}{2(t - 1)}}}{(i ( t - 1))^{1/2}}Q\left(\dfrac{x}{t - 1}\right)
+$$
+其中$Q(x): = (3/ 8)^{1/4}cosh^{- 1/ 2} (x)$是基态.
