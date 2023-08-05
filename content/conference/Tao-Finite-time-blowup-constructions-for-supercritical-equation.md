@@ -63,10 +63,9 @@ $$
 
 - 对于ODE，有限时间blowup是可以避免的：如果存在**守恒律**（conservation law）且其是**强制**的（coercive，解被限制在一个紧集内）.
 
-- 例如，考虑（Hamiltonian ODE）$\partial_{tt} u = - (\nabla_{\mathbb{R}^m}V)(u), \ u :[0, T_\*) \rightarrow \mathbb{R}^m$，某个光滑势函数 $V : \mathbb{R}^m \rightarrow \mathbb{R}$.此ODE能量守恒：
-
-$$
+- 例如，考虑（Hamiltonian ODE）$\partial_{tt} u = - (\nabla_{\mathbb{R}^m}V)(u), \ u :[0, T_\*) \rightarrow \mathbb{R}^m$，某个光滑势函数 $V : \mathbb{R}^m \rightarrow \mathbb{R}$.此ODE能量守恒：$$
 E(t) := \frac{1}{2}\|\partial_t u(t)\|^2_{\mathbb{R}^m} + V(u(t))
-$$
-以及$E(t) = E(0), \forall t \in [0, T_\*)$.若$V$是defocusing，即当$u \rightarrow \infty$时有$V(u) \rightarrow + \infty$
+$$以及$E(t) = E(0), \forall t \in [0, T_\*)$.若$V$是defocusing，即当$u \rightarrow \infty$时有$V(u) \rightarrow + \infty$，相反，若$V$是focusing，即当$u \rightarrow \infty$时有$V(u) \rightarrow - \infty$，则有可能blowup.参考图2.
+
+{{< figure src="/Tao-Finite-time-blowup-constructions-for-supercritical-equation/2.png" caption="defocusing与focusing" numbered="true" >}}
 
